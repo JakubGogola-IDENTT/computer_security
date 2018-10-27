@@ -1,0 +1,567 @@
+1540587568919	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FZesOWgMToNB"
+
+(firefox:14829): Gtk-WARNING **: 22:59:30.297: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:14829): Gtk-WARNING **: 22:59:30.297: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540587573409	Marionette	INFO	Listening on port 37389
+1540587573444	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 14829, Gecko_IOThread] WARNING: pipe error (94): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 14829, Gecko_IOThread] WARNING: pipe error (80): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540587583272	Marionette	INFO	Stopped listening on port 37389
+1540587629299	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Zkr4SMyTAG3U"
+
+(firefox:15083): Gtk-WARNING **: 23:00:30.275: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15083): Gtk-WARNING **: 23:00:30.275: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540587632138	Marionette	INFO	Listening on port 40063
+1540587632260	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540587635926	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QkrxCYDjXSx6"
+
+(firefox:15311): Gtk-WARNING **: 23:00:36.846: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15311): Gtk-WARNING **: 23:00:36.846: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540587639034	Marionette	INFO	Listening on port 37399
+1540587639135	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540587652604	Marionette	INFO	Stopped listening on port 40063
+[Parent 15311, Gecko_IOThread] WARNING: pipe error (69): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 15311, Gecko_IOThread] WARNING: pipe error (94): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540587654713	Marionette	INFO	Stopped listening on port 37399
+1540587819946	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZM5LYVBJkUHK"
+
+(firefox:15655): Gtk-WARNING **: 23:03:40.800: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15655): Gtk-WARNING **: 23:03:40.800: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540587822643	Marionette	INFO	Listening on port 36015
+1540587822665	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+[Parent 15655, Gecko_IOThread] WARNING: pipe error (80): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 15655, Gecko_IOThread] WARNING: pipe error (69): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540587834238	Marionette	INFO	Stopped listening on port 36015
+1540587837961	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9m4YNXM9osEj"
+
+(firefox:15891): Gtk-WARNING **: 23:03:58.818: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15891): Gtk-WARNING **: 23:03:58.818: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540587840728	Marionette	INFO	Listening on port 43385
+1540587840831	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+[Parent 15891, Gecko_IOThread] WARNING: pipe error (77): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 15891, Gecko_IOThread] WARNING: pipe error (94): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540587844869	Marionette	INFO	Stopped listening on port 43385
+1540587848430	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PTgpiqR7gSIz"
+
+(firefox:16110): Gtk-WARNING **: 23:04:09.337: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:16110): Gtk-WARNING **: 23:04:09.338: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540587851263	Marionette	INFO	Listening on port 44851
+1540587851339	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540587859656	Marionette	INFO	Stopped listening on port 44851
+1540587949422	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mamV5yG9BCTs"
+
+(firefox:16613): Gtk-WARNING **: 23:05:50.224: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:16613): Gtk-WARNING **: 23:05:50.224: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540587952002	Marionette	INFO	Listening on port 33877
+1540587952039	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+[Parent 16613, Gecko_IOThread] WARNING: pipe error (69): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 16613, Gecko_IOThread] WARNING: pipe error (94): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540588025859	Marionette	INFO	Stopped listening on port 33877
+1540588174519	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.z55W6gUEOsT4"
+
+(firefox:16989): Gtk-WARNING **: 23:09:35.485: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:16989): Gtk-WARNING **: 23:09:35.485: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540588177325	Marionette	INFO	Listening on port 37965
+1540588177456	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540588182485	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3aer34I0c1uF"
+1540588183700	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YL9n0X6XZVKw"
+[Parent 16989, Gecko_IOThread] WARNING: pipe error (69): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 16989, Gecko_IOThread] WARNING: pipe error (94): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540588208625	Marionette	INFO	Stopped listening on port 37965
+1540589794716	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bRYEEMhz6qTU"
+
+(firefox:18628): Gtk-WARNING **: 23:36:35.645: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:18628): Gtk-WARNING **: 23:36:35.645: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540589797508	Marionette	INFO	Listening on port 34591
+1540589797528	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540589921786	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cHd2t7XMrsVc"
+
+(firefox:18926): Gtk-WARNING **: 23:38:42.710: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:18926): Gtk-WARNING **: 23:38:42.710: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540589924781	Marionette	INFO	Listening on port 34931
+1540589924796	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+[Parent 18926, Gecko_IOThread] WARNING: pipe error (77): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 18926, Gecko_IOThread] WARNING: pipe error (39): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540589927947	Marionette	INFO	Stopped listening on port 34931
+[Parent 18628, Gecko_IOThread] WARNING: pipe error (69): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 18628, Gecko_IOThread] WARNING: pipe error (96): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540590094028	Marionette	INFO	Stopped listening on port 34591
+1540590344864	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ARmtT6Ef9qKf"
+
+(firefox:19678): Gtk-WARNING **: 23:45:45.787: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:19678): Gtk-WARNING **: 23:45:45.787: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540590349722	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mz7IaFuQNDhn"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540590370160	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4v0qFF9RxRpt"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540590386819	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3SzxVHtrKk7S"
+
+(firefox:19857): Gtk-WARNING **: 23:46:27.621: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:19857): Gtk-WARNING **: 23:46:27.621: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540590389920	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fRdPLJ4mQtGL"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540590403606	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sdrhLnmgIjqJ"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540590665141	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lk1GZAnSLAai"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540627572772	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xVH0nOK92Kc2"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540627653834	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aut5uyJ1raGG"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540627789585	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.afnDDcomiCAo"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540627791549	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.K2hPZjhmpG1m"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540627816366	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RFx9TFoxIBxg"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540627873523	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZqCyjym01eoq"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540628302844	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xBN5FfaZJm4H"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540629012244	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7V3LC2BVlIMC"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540629057437	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HOYvfdM5xDtB"
+
+(firefox:2069): Gtk-WARNING **: 10:30:58.700: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:2069): Gtk-WARNING **: 10:30:58.700: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540629061579	Marionette	INFO	Listening on port 41565
+1540629061651	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540629084970	Marionette	INFO	Stopped listening on port 41565
+1540629090103	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7w9unqWSAQM0"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540629217434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.u1vCJLlcvhKa"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540629287124	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IZuAFPKBQamR"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540629302800	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fPvZPjyuoplE"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540629322434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0UmILkH5DElq"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540629326098	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xPAE7INxZe0A"
+
+(firefox:3187): Gtk-WARNING **: 10:35:27.028: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:3187): Gtk-WARNING **: 10:35:27.028: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540629328968	Marionette	INFO	Listening on port 33279
+1540629329008	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540629417396	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hhzfA9DI5MCm"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540629433040	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.eW8WMFXOfA2F"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540629438843	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RxCtjKbzXTA3"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540629494183	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NFMzLL1PK2o2"
+
+(firefox:3519): Gtk-WARNING **: 10:38:15.197: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:3519): Gtk-WARNING **: 10:38:15.197: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540629497347	Marionette	INFO	Listening on port 44333
+1540629497401	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3519, Gecko_IOThread] WARNING: pipe error (80): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 3519, Gecko_IOThread] WARNING: pipe error (69): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540629499939	Marionette	INFO	Stopped listening on port 44333
+1540629513322	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AWK17T39KVwe"
+
+(firefox:3733): Gtk-WARNING **: 10:38:34.302: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:3733): Gtk-WARNING **: 10:38:34.302: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540629516150	Marionette	INFO	Listening on port 35105
+1540629516234	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 29: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 3733, Gecko_IOThread] WARNING: pipe error (88): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1540629518548	Marionette	INFO	Stopped listening on port 35105
+[Parent 3187, Gecko_IOThread] WARNING: pipe error (69): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 3187, Gecko_IOThread] WARNING: pipe error (94): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540629583612	Marionette	INFO	Stopped listening on port 33279
+1540629672816	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aM7qSaE0kazi"
+
+(firefox:4039): Gtk-WARNING **: 10:41:13.757: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4039): Gtk-WARNING **: 10:41:13.757: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540629675868	Marionette	INFO	Listening on port 35711
+1540629675935	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540629688337	Marionette	INFO	Stopped listening on port 35711
+1540629829853	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Uc1t7GrNcECK"
+
+(firefox:4341): Gtk-WARNING **: 10:43:50.786: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4341): Gtk-WARNING **: 10:43:50.786: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540629832608	Marionette	INFO	Listening on port 41329
+1540629832669	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540629846802	Marionette	INFO	Stopped listening on port 41329
+1540629977511	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Usy88AFTGjHN"
+
+(firefox:4658): Gtk-WARNING **: 10:46:18.426: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4658): Gtk-WARNING **: 10:46:18.426: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540629980401	Marionette	INFO	Listening on port 42065
+1540629980425	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 4658, Gecko_IOThread] WARNING: pipe error (92): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540629984132	Marionette	INFO	Stopped listening on port 42065
+1540630004878	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7PHfIiM5G5jv"
+
+(firefox:4887): Gtk-WARNING **: 10:46:45.779: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4887): Gtk-WARNING **: 10:46:45.779: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540630007842	Marionette	INFO	Listening on port 39963
+1540630007970	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+1540630011044	Marionette	INFO	Stopped listening on port 39963
+1540630077972	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JRZyTgmRfjMP"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540630096783	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rLsrFF3XXMQz"
+
+(firefox:5323): Gtk-WARNING **: 10:48:17.672: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:5323): Gtk-WARNING **: 10:48:17.673: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540630099637	Marionette	INFO	Listening on port 35445
+1540630099694	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540630111344	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SSsFYpW7ttvr"
+
+(firefox:5548): Gtk-WARNING **: 10:48:32.671: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:5548): Gtk-WARNING **: 10:48:32.671: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540630130968	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rme9j3Vnh3DF"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+[Parent 5323, Gecko_IOThread] WARNING: pipe error (108): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540630138277	Marionette	INFO	Stopped listening on port 35445
+1540630163947	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vZodupODU2tl"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540630292349	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6cwv3i9Arl2m"
+
+(firefox:6309): Gtk-WARNING **: 10:51:33.492: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:6309): Gtk-WARNING **: 10:51:33.492: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540630295882	Marionette	INFO	Listening on port 34849
+1540630295971	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 29: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 6309, Gecko_IOThread] WARNING: pipe error (92): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 6309, Gecko_IOThread] WARNING: pipe error (69): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+console.error: 
+  [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/DownloadsManager.jsm :: init :: line 62"  data: no]: init@resource://activity-stream/lib/DownloadsManager.jsm:62:5
+postInit@resource://activity-stream/lib/HighlightsFeed.jsm:60:5
+handler@resource://gre/modules/EventEmitter.jsm:94:11
+emit@resource://gre/modules/EventEmitter.jsm:149:11
+init@resource://activity-stream/lib/SectionsManager.jsm:120:5
+observe@resource://gre/modules/AsyncShutdown.jsm:541:9
+
+1540630299259	Marionette	INFO	Stopped listening on port 34849
+1540630299899	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XbAPN4U7w38n"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540630391943	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Ftehy1qKXyTM"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540630571974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.q8v0dkb7AbHm"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540630695316	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.U4BhxIxPJiam"
+
+(firefox:7034): Gtk-WARNING **: 10:58:16.311: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:7034): Gtk-WARNING **: 10:58:16.311: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540630698822	Marionette	INFO	Listening on port 43805
+1540630698835	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 29: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1540630700977	Marionette	INFO	Stopped listening on port 43805
+1540630717986	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xsogrw7rOTus"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540631463951	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8G4cAMCaiR7Z"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540631677048	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1jxQPkI4sD9q"
+
+(firefox:8848): Gtk-WARNING **: 11:14:37.924: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:8848): Gtk-WARNING **: 11:14:37.924: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540631680262	Marionette	INFO	Listening on port 40287
+1540631680357	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540631689587	Marionette	INFO	Stopped listening on port 40287
+1540631707971	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hlbrf9R53CFt"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540632668108	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xmA1DT4LxerC"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540632727090	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4duRdmG100ul"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540632948400	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yCfI5340NWFl"
+
+(firefox:10996): Gtk-WARNING **: 11:35:49.263: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:10996): Gtk-WARNING **: 11:35:49.264: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540632951209	Marionette	INFO	Listening on port 35547
+1540632951344	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540633358114	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Fq95DXmPkdsn"
+
+(firefox:11426): Gtk-WARNING **: 11:42:39.069: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:11426): Gtk-WARNING **: 11:42:39.069: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540633360888	Marionette	INFO	Listening on port 36121
+1540633360980	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540633423047	Marionette	INFO	Stopped listening on port 35547
+1540633425442	Marionette	INFO	Stopped listening on port 36121
+1540633552658	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bAFjb2TV55jR"
+
+(firefox:12322): Gtk-WARNING **: 11:45:53.539: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:12322): Gtk-WARNING **: 11:45:53.539: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540633555459	Marionette	INFO	Listening on port 39845
+1540633555468	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540633580008	Marionette	INFO	Stopped listening on port 39845
+1540633613533	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ly4rSmBnFO81"
+
+(firefox:12592): Gtk-WARNING **: 11:46:54.518: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:12592): Gtk-WARNING **: 11:46:54.518: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540633617051	Marionette	INFO	Listening on port 36065
+1540633617146	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540633641120	Marionette	INFO	Stopped listening on port 36065
+1540660761258	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.z2iJW9eiAfsy"
+
+(firefox:4190): Gtk-WARNING **: 19:19:22.883: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4190): Gtk-WARNING **: 19:19:22.883: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540660803723	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hdF5xcg46kJi"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540660834101	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.g6EU1AIBLZto"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540660861527	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7kvbQRIIkvVg"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540666017922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SchggoUBLInx"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540666951147	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6h4UrolJ8iW5"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540667202098	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xV2C3bLs1IWF"
+Running Firefox as root in a regular user's session is not supported.  ($HOME is /home/jakub which is owned by jakub.)
+1540668142112	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0qIKejwnfrfN"
+
+(firefox:8851): Gtk-WARNING **: 21:22:23.563: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:8851): Gtk-WARNING **: 21:22:23.563: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540668145953	Marionette	INFO	Listening on port 35279
+1540668146046	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540668149195	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zSzK9lpnBYsP"
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+
+(firefox:9079): Gtk-WARNING **: 21:22:30.192: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:9079): Gtk-WARNING **: 21:22:30.192: Theme parsing error: <data>:1:77: Expected ')' in color definition
+[Parent 8851, Gecko_IOThread] WARNING: pipe error (77): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 8851, Gecko_IOThread] WARNING: pipe error (80): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540668151253	Marionette	INFO	Stopped listening on port 35279
+1540668152645	Marionette	INFO	Listening on port 42725
+1540668152709	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540668155022	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pRi47WrBanz3"
+
+(firefox:9296): Gtk-WARNING **: 21:22:36.110: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:9296): Gtk-WARNING **: 21:22:36.110: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540668158356	Marionette	INFO	Listening on port 38539
+1540668158471	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540668161371	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.texGPWfTGkel"
+
+(firefox:9510): Gtk-WARNING **: 21:22:42.445: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:9510): Gtk-WARNING **: 21:22:42.445: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540668164553	Marionette	INFO	Listening on port 32957
+1540668164596	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540668167250	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xpeRXaAxKLWX"
+[Parent 9510, Gecko_IOThread] WARNING: pipe error (77): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 9510, Gecko_IOThread] WARNING: pipe error (94): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+
+(firefox:9722): Gtk-WARNING **: 21:22:48.416: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:9722): Gtk-WARNING **: 21:22:48.416: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540668168838	Marionette	INFO	Stopped listening on port 32957
+1540668170604	Marionette	INFO	Listening on port 46099
+1540668170716	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540668174303	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0ZjkL0pw3BUt"
+1540668175185	Marionette	INFO	Stopped listening on port 46099
+
+(firefox:9942): Gtk-WARNING **: 21:22:55.407: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:9942): Gtk-WARNING **: 21:22:55.407: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540668177793	Marionette	INFO	Listening on port 38877
+1540668177825	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 29: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource:///modules/ContentMetaHandler.jsm, line 156: NS_ERROR_ILLEGAL_VALUE: 
+[Child 10058, Chrome_ChildThread] WARNING: pipe error: Przerwany potok: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 10058, Chrome_ChildThread] WARNING: pipe error: Przerwany potok: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1540668180349	Marionette	INFO	Stopped listening on port 38877
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9250, Chrome_ChildThread] WARNING: pipe error (3): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9198, Chrome_ChildThread] WARNING: pipe error (3): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
