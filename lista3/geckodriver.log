@@ -832,3 +832,20 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, 
 [Parent 4211, Gecko_IOThread] WARNING: pipe error (69): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
 [Parent 4211, Gecko_IOThread] WARNING: pipe error (98): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
 1540746906050	Marionette	INFO	Stopped listening on port 37187
+1540765753924	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.T9C8uSkQzG0b"
+
+(firefox:5291): Gtk-WARNING **: 23:29:15.473: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:5291): Gtk-WARNING **: 23:29:15.473: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540765758402	Marionette	INFO	Listening on port 38415
+1540765758436	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+[Parent 5291, Gecko_IOThread] WARNING: pipe error (94): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540765770237	Marionette	INFO	Stopped listening on port 38415

@@ -29,4 +29,4 @@ def get_cookie():
     driver = webdriver.Firefox()
     driver.get('http://mikolaj.ovh')
     driver.add_cookie(pattern)
-    driver.get('http://mikolaj.ovh')
+    driver.refresh()
