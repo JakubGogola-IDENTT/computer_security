@@ -23,7 +23,10 @@ def get_cookie():
                 pattern['name'] = k
                 pattern['value'] = v
             print(pattern)
-            driver = webdriver.Firefox()
-            driver.get('http://mikolaj.ovh')
-            driver.add_cookie(pattern)
-            driver.get('http://mikolaj.ovh')
+            if pattern['name'] != '' and pattern['value'] != '':
+                break
+
+    driver = webdriver.Firefox()
+    driver.get('http://mikolaj.ovh')
+    driver.add_cookie(pattern)
+    driver.get('http://mikolaj.ovh')
