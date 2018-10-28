@@ -27,6 +27,3 @@ def get_cookie():
             driver.get('http://mikolaj.ovh')
             driver.add_cookie(pattern)
             driver.get('http://mikolaj.ovh')
-            
-
-get_cookie()

@@ -565,3 +565,114 @@ console.error: PushService:
 [Child 9250, Chrome_ChildThread] WARNING: pipe error (3): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 [Child 9198, Chrome_ChildThread] WARNING: pipe error (3): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540669386459	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.k4IrEK820d42"
+
+(firefox:15425): Gtk-WARNING **: 21:43:07.497: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15425): Gtk-WARNING **: 21:43:07.497: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540669389536	Marionette	INFO	Listening on port 45023
+1540669389574	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540669391109	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JjyGgwaBgRoE"
+
+(firefox:15628): Gtk-WARNING **: 21:43:12.286: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15628): Gtk-WARNING **: 21:43:12.286: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540669395235	Marionette	INFO	Listening on port 42891
+1540669395367	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540669397980	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VLxO57yXjq8e"
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+[Parent 15628, Gecko_IOThread] WARNING: pipe error (78): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 15628, Gecko_IOThread] WARNING: pipe error (69): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1540669399017	Marionette	INFO	Stopped listening on port 42891
+
+(firefox:15835): Gtk-WARNING **: 21:43:19.267: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15835): Gtk-WARNING **: 21:43:19.267: Theme parsing error: <data>:1:77: Expected ')' in color definition
+[Parent 15425, Gecko_IOThread] WARNING: pipe error (77): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540669400424	Marionette	INFO	Stopped listening on port 45023
+1540669401707	Marionette	INFO	Listening on port 44721
+1540669401796	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 29: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 15835, Gecko_IOThread] WARNING: pipe error (69): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1540671330973	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KLIfgPj7ifrC"
+
+(firefox:5958): Gtk-WARNING **: 22:15:32.588: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:5958): Gtk-WARNING **: 22:15:32.588: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540671335411	Marionette	INFO	Listening on port 33935
+1540671335424	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540671338290	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.m8WnQs3qtwgV"
+
+(firefox:6185): Gtk-WARNING **: 22:15:39.413: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:6185): Gtk-WARNING **: 22:15:39.413: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540671341557	Marionette	INFO	Listening on port 37773
+1540671341602	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-114728111-2, line 75: unreachable code after return statement
+1540671344484	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QYOylizX9LJp"
+
+(firefox:6378): Gtk-WARNING **: 22:15:45.638: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:6378): Gtk-WARNING **: 22:15:45.638: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1540671348105	Marionette	INFO	Listening on port 38247
+1540671348194	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 29: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 6185, Gecko_IOThread] WARNING: pipe error (92): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 6185, Gecko_IOThread] WARNING: pipe error (69): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+[Parent 5958, Gecko_IOThread] WARNING: pipe error (94): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 5958, Gecko_IOThread] WARNING: pipe error (88): Połączenie zerwane przez drugą stronę: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540671351330	Marionette	INFO	Stopped listening on port 37773
+1540671351571	Marionette	INFO	Stopped listening on port 38247
+1540671351739	Marionette	INFO	Stopped listening on port 33935
