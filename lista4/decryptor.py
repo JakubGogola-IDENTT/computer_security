@@ -1,0 +1,95 @@
+from cryptogram import Cryptogram
+import operator
+
+
+class Decryptor:
+
+    def __init__(self, data_file):
+        self.cryptograms = []
+        self.data_file = data_file
+        self.letters_freq = None
+        self.gen_letters_freq()
+
+    def get_data(self):
+        with open(self.data_file, 'r') as file:
+            for line in file:
+                self.cryptograms.append(Cryptogram(line))
+
+    def find_key(self):
+        key = []
+
+        longest = 0
+
+        for crypt in self.cryptograms:
+            if len(crypt.chars) > longest:
+                longest = len(crypt.chars)
+
+        for i in range(0, longest):
+            possible_key = {}
+            matching_cryptograms = []
+            for crypt in self.cryptograms:
+                if i < len(crypt.chars):
+                    matching_cryptograms.append(crypt)
+
+            for crypt in matching_cryptograms:
+                for possible in self.letters_freq.keys():
+                    tmp = (ord(crypt.get_chr(i)) ^ ord(possible), self.letters_freq[possible])
+
+                    if tmp[0] not in possible_key.keys():
+                        possible_key[tmp[0]] = tmp[1]
+                    else:
+                        possible_key[tmp[0]] = possible_key.get(tmp[0]) + self.letters_freq.get(possible)
+
+            srt = sorted(possible_key.items(), key=operator.itemgetter(1), reverse=True)
+            possible_key = dict(srt)
+            key.append(self.find_best_key(i, possible_key))
+
+        print(key)
+        return key
+
+    def find_best_key(self, index, possible_key):
+        best_possible = ord(' ')
+        best_counter = 0
+
+        matching_cryptograms = []
+        for crypt in self.cryptograms:
+            if index < len(crypt.chars):
+                matching_cryptograms.append(crypt)
+
+        for possible in possible_key.keys():
+            counter = 0
+
+            for crypt in matching_cryptograms:
+                if (chr(ord(crypt.get_chr(index)) ^ possible)) in self.letters_freq.keys():
+                    counter += 1
+
+            if counter > best_counter:
+                best_counter = counter
+                best_possible = possible
+
+            if counter >= len(self.cryptograms):
+                return possible
+
+        return best_possible
+
+    def gen_letters_freq(self):
+        self.letters_freq = {
+            'a': 89, 'i': 82, 'o': 78, 'e': 77, 'z': 56, 'n': 55, 'r': 47, 'w': 47, 's': 43, 't': 40, 'c': 40,'y': 38,
+            'k': 35, 'd': 33, 'p': 31, 'm': 28, 'u': 25, 'j': 23, 'l': 21, 'b': 15, 'g': 14, 'h': 11, 'f': 3, 'q': 1,
+            'v': 1, 'x': 1, ' ': 100, ',': 10, '.': 10, '-': 10, '"': 10, '!': 10, '?': 10, ':': 10, ';': 10, '(': 10,
+            ')': 10
+        }
+
+        for i in range(65, 91):
+            self.letters_freq[chr(i)] = 10
+
+        for i in range(48, 58):
+            self.letters_freq[chr(i)] = 10
+
+    def output(self):
+        key = self.find_key()
+        with open('output.txt', 'w') as file:
+            for crypt in self.cryptograms:
+                for i in range(0, len(crypt.chars)):
+                    file.write(chr(ord(crypt.get_chr(i)) ^ key[i]))
+                file.write('\n')
