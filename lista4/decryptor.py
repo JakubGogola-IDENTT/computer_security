@@ -59,13 +59,17 @@ class Decryptor:
 
             for crypt in matching_cryptograms:
                 for possible in self.letters_freq.keys():
+
+                    # XOR chars of cryptogram with letters in alphabet
                     tmp = (ord(crypt.get_chr(i)) ^ ord(possible), self.letters_freq[possible])
 
+                    # Put into dict frequency of XOR result
                     if tmp[0] not in possible_key.keys():
                         possible_key[tmp[0]] = tmp[1]
                     else:
                         possible_key[tmp[0]] = possible_key.get(tmp[0]) + self.letters_freq.get(possible)
 
+            # Sort possible keys to make searching easier
             tmp_sorted = sorted(possible_key.items(), key=operator.itemgetter(1), reverse=True)
             possible_key = dict(tmp_sorted)
 
@@ -76,9 +80,11 @@ class Decryptor:
                 counter = 0
 
                 for crypt in matching_cryptograms:
+                    # Check if XOR get char from alphabet
                     if (chr(ord(crypt.get_chr(i)) ^ possible)) in self.letters_freq.keys():
                         counter += 1
 
+                # The best key is that which gives a sign from alphabet the most often. 
                 if counter > best_counter:
                     best_counter = counter
                     best_possible = possible
