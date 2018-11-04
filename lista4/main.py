@@ -3,7 +3,7 @@ from decryptor import Decryptor
 
 def main():
     dec = Decryptor('data.txt')
-    dec.get_data()
+    dec.get_data_from_file()
     dec.find_key()
     dec.output()
 
