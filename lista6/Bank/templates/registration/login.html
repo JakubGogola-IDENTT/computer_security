@@ -1,0 +1,12 @@
+{% extends 'registration/../temp.html' %}
+
+{% block title %} Logowanie - AwesomeBank {% endblock %}
+
+{% block main_content %}
+    <h1>Logowanie</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+    <button type="submit">Zaloguj się</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'temp.html' %}
+{% block title %} Homepage AwesomeBank {% endblock %}
+
+{% block main_content %}
+    {% if user.is_authenticated %}
+        Dzień dobry {{ user.username }} !
+        <p><a href="{% url 'logout' %}">logout</a> </p>
+    {% else %}
+        <p>Nie jesteś zalogowany!</p>
+    <a href="{% url 'login' %}">Zaloguj się</a>
+    {% endif %}
+{% endblock %}
