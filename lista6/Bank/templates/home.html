@@ -7,6 +7,7 @@
         <p><a href="{% url 'logout' %}">logout</a> </p>
     {% else %}
         <p>Nie jesteś zalogowany!</p>
-    <a href="{% url 'login' %}">Zaloguj się</a>
+        <a href="{% url 'login' %}">Zaloguj się</a>
+        <a href="{% url 'signup' %}">Zarejestruj się</a>
     {% endif %}
 {% endblock %}
