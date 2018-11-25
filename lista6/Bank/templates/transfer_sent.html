@@ -1,0 +1,14 @@
+{% extends 'registration/../temp.html' %}
+
+{% block title %} Logowanie - AwesomeBank {% endblock %}
+
+{% block main_content %}
+    {% if user.is_authenticated %}
+    <h1>Przelew wysłany pomyślnie</h1>
+        <a href="{% url 'transfer_sending' %}">Powrót</a>
+    {% else %}
+        <p>Nie jesteś zalogowany!</p>
+        <a href="{% url 'login' %}">Zaloguj się</a>
+        <a href="{% url 'signup' %}">Zarejestruj się</a>
+    {% endif %}
+{% endblock %}
