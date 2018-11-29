@@ -20,7 +20,12 @@ def transfer_sending(request):
 
 
 def transfer_confirmed(request):
-    transfers = [_ for _ in Transfer.objects.all() if _.sender_id == request.user.id]
+    transfers = []
+
+    for item in Transfer.objects.all():
+        if item.sender_id == request.user.id:
+            transfers.append(item)
+
     transfers = [transfers[-1]]
     if request.method == 'POST':
 
@@ -40,7 +45,11 @@ def transfer_sent(request):
 
 
 def transfers_history(request):
-    transfers = [_ for _ in Transfer.objects.all() if _.sender_id == request.user.id]
+    transfers = []
+    for item in Transfer.objects.all():
+        if item.sender_id == request.user.id:
+            transfers.append(item)
+
     context = {
         'transfers': transfers
     }
