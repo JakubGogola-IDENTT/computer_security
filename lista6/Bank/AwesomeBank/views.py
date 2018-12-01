@@ -1,17 +1,19 @@
 from django.shortcuts import render, redirect
 from AwesomeBank.forms import TransferForm
-from AwesomeBank.models import Transfer
+from AwesomeBank.models import PreparedTransfer, Transfer
 
 
 # Create your views here.
 
 def transfer_sending(request):
-    form = TransferForm(request.POST)
-    if form.is_valid():
-        form.save(sender=request.user)
-        return redirect('transfer_confirm')
+    if request.method == 'POST':
+        form = TransferForm(request.POST)
+        if form.is_valid():
+            form.save(sender=request.user)
+            return redirect('transfer_confirm')
+    else:
+        form = TransferForm()
 
-    form = TransferForm()
     context = {
         'form': form
     }
@@ -20,28 +22,39 @@ def transfer_sending(request):
 
 
 def transfer_confirmed(request):
-    transfers = []
+    prepared_transfers = []
 
-    for item in Transfer.objects.all():
+    for item in PreparedTransfer.objects.all():
         if item.sender_id == request.user.id:
-            transfers.append(item)
+            prepared_transfers.append(item)
 
-    transfers = [transfers[-1]]
     if request.method == 'POST':
 
-        for t in transfers:
+        for t in prepared_transfers:
             Transfer.objects.create(recipient_name=t.recipient_name, recipient_account=t.recipient_account,
-                                    amount=t.amount, sender=t.sender)
+                                    title=t.title, amount=t.amount, sender=t.sender)
             t.delete()
         return redirect('transfer_sent')
+
     context = {
-        'transfers': transfers
+        'transfers': prepared_transfers
     }
     return render(request, 'transfer_confirm.html', context)
 
 
 def transfer_sent(request):
-    return render(request, 'transfer_sent.html')
+    transfers = []
+    for item in Transfer.objects.all():
+        if item.sender_id == request.user.id:
+            transfers.append(item)
+
+    transfers = [transfers[-1]]
+
+    context = {
+        'transfers': transfers
+    }
+
+    return render(request, 'transfer_sent.html', context)
 
 
 def transfers_history(request):

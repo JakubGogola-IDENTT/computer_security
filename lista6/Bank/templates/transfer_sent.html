@@ -5,6 +5,25 @@
 {% block main_content %}
     {% if user.is_authenticated %}
     <h1>Przelew wysłany pomyślnie</h1>
+        {% csrf_token %}
+            <table>
+                <tr>
+                    <th>Odbiorca</th>
+                    <th>Numer konta odbiorcy</th>
+                    <th>Tytułem</th>
+                    <th>Kwota</th>
+                    <th>Data wysłania</th>
+                 </tr>
+            {% for t in transfers %}
+                <tr>
+                    <td>{{ t.recipient_name }}</td>
+                    <td>{{ t.recipient_account }}</td>
+                    <td>{{ t.title }}</td>
+                    <td>{{ t.amount }}</td>
+                    <td>{{ t.date }}</td>
+                </tr>
+            {% endfor %}
+            </table>
         <a href="{% url 'transfer_sending' %}">Powrót</a>
     {% else %}
         <p>Nie jesteś zalogowany!</p>

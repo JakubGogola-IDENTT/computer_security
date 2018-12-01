@@ -8,7 +8,7 @@ body {
     background-color: white;
     background-image: url("bckgrnd.jpg");
     background-size: cover;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .bank-name {

@@ -1,5 +1,5 @@
 from django import forms
-from AwesomeBank.models import Transfer
+from AwesomeBank.models import PreparedTransfer
 
 
 class TransferMetaForm(forms.ModelForm):
@@ -16,9 +16,8 @@ class TransferMetaForm(forms.ModelForm):
 
 class TransferForm(TransferMetaForm):
     class Meta:
-        model = Transfer
+        model = PreparedTransfer
         fields = [
-
             'recipient_name',
             'recipient_account',
             'title',
