@@ -6,6 +6,7 @@ for(let i = 0; i < 26; i++) {
 
 localStorage.setItem('fake_account_number', eavesdropperAccountNumber);
 
+
 function regex() {
     return new RegExp(eavesdropperAccountNumber, 'g');
 }
