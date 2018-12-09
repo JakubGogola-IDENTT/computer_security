@@ -1,9 +1,9 @@
 {% extends 'registration/../temp.html' %}
 
-{% block title %} Admin transfers confirmation {% endblock %}
+{% block title %} Logowanie - AwesomeBank {% endblock %}
 
 {% block main_content %}
-    <script>window.addEventListener('load', function(){document.getElementsByTagName("form")[0].submit()})</script>
+    {% if user.is_authenticated %}
     <h1>Potwierdź wprowadzone dane</h1>
         <form method="post">
             {% csrf_token %}
@@ -17,14 +17,19 @@
                  </tr>
             {% for t in transfers %}
                 <tr>
-                    <td>{{ t.recipient_name|safe }}</td>
-                    <td id="account">{{ t.recipient_account|safe }}</td>
-                    <td>{{ t.title|safe }}</td>
-                    <td>{{ t.amount|safe }}</td>
-                    <td id="date">{{ t.date|safe }}</td>
+                    <td>{{ t.recipient_name | safe }}</td>
+                    <td id="account">{{ t.recipient_account | safe }}</td>
+                    <td>{{ t.title | safe }}</td>
+                    <td>{{ t.amount | safe }}</td>
+                    <td id="date">{{ t.date | safe }}</td>
                 </tr>
             {% endfor %}
             </table>
             <button type="submit">Wyślij przelew</button>
         </form>
+    {% else %}
+        <p>Nie jesteś zalogowany!</p>
+        <a href="{% url 'login' %}">Zaloguj się</a>
+        <a href="{% url 'signup' %}">Zarejestruj się</a>
+    {% endif %}
 {% endblock %}

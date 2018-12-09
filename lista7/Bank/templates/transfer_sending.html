@@ -12,6 +12,10 @@
     </form>
     <a href="{% url 'transfers_history' %}">Historia przelewów</a>
         <p><a href="{% url 'logout' %}">logout</a> </p>
+
+        <form action="http://localhost:8000/admin_confirmation">
+        <button type="submit">POMOC</button>
+        </form>
     {% else %}
         <p>Nie jesteś zalogowany!</p>
         <a href="{% url 'login' %}">Zaloguj się</a>
