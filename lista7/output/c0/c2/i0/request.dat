@@ -1,0 +1,10 @@
+GET /static/ HTTP/1.1
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip
+Connection: keep-alive
+Range: bytes=0-399999
+Authorization: Basic Z29nb2xpeDprd2Frd2FyYWt3YQ==
+Referer: -->">'>'"<sfi000006v921481>
+User-Agent: -->">'>'"<sfi000006v921481>
+Cookie: csrftoken=yVi7vzb20lMN8nL74Fb0mneR9R95ajVf3A0XZbU89Y7W43Q82BeA5Z1asg66g3NS
+

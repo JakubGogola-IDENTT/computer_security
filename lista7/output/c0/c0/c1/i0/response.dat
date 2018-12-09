@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Date: Sun, 09 Dec 2018 16:48:56 GMT
+Server: WSGIServer/0.2 CPython/3.6.7
+Content-Type: text/html; charset=utf-8
+Vary: Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Length: 811
+Set-Cookie: csrftoken=TLNrJL5ROY8DVW2gV5ViXLwPsupwPcA3HxWKq0tGIKEq9ds0o8jjRJa5EusFT3yx; expires=Sun, 08 Dec 2019 16:48:56 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zresetuj hasło  </title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+
+<div class="main">
+<div class="bank-name">
+    AwesomeBank
+</div>
+    
+    <h1>Zresetuj swoje hasło</h1>
+    <p>Podaj swój adres e-mail, a my prześlemy Ci dalsze instrukcje</p>
+    <form method="post"

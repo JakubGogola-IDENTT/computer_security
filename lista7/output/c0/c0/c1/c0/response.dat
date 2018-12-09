@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Date: Sun, 09 Dec 2018 16:49:07 GMT
+Server: WSGIServer/0.2 CPython/3.6.7
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+Content-Length: 462
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hasło zresetowane  </title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+
+<div class="main">
+<div class="bank-name">
+    AwesomeBank
+</div>
+    
+    <p>Wysłaliśmy insturkcje na Twój adres email</p>
+    <h1>Sprawdź swoją skrzynkę</h1>
+
+</div>
+</body>
+</html>

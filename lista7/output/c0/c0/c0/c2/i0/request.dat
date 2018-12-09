@@ -1,0 +1,13 @@
+POST /accounts/login/ HTTP/1.1
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: http://127.0.0.1/
+Authorization: Basic Z29nb2xpeDprd2Frd2FyYWt3YQ==
+Cookie: csrftoken=yVi7vzb20lMN8nL74Fb0mneR9R95ajVf3A0XZbU89Y7W43Q82BeA5Z1asg66g3NS
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 119
+
+csrfmiddlewaretoken=Axu7dZIwlv8HKvkFHAnln6IoJBFmunLazMfqQ3J7sS8S4LRkMojrm2gSZKekkk46&username=9876sfi&password=skipfish

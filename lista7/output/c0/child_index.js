@@ -1,0 +1,5 @@
+var child = [
+  { 'dupe': false, 'type': 4, 'name': 'accounts', 'dir': 'c0', 'linked': 5, 'url': 'http://127.0.0.1:8000/accounts/', 'fetched': true, 'code': 404, 'len': 4385, 'decl_mime': 'text/html', 'sniff_mime': 'application/xhtml+xml', 'cset': 'utf-8', 'missing': true, 'csens': true, 'child_cnt': 13, 'issue_cnt': [ 15, 19, 1, 3, 0 ], 'sig': 0x115aef9e },
+  { 'dupe': false, 'type': 4, 'name': 'home', 'dir': 'c1', 'linked': 1, 'url': 'http://127.0.0.1:8000/home/', 'fetched': true, 'code': 404, 'len': 2838, 'decl_mime': 'text/html', 'sniff_mime': '[none]', 'cset': '[none]', 'missing': true, 'csens': false, 'child_cnt': 19, 'issue_cnt': [ 2, 19, 0, 0, 0 ], 'sig': 0x738ea9a7 },
+  { 'dupe': false, 'type': 4, 'name': 'static', 'dir': 'c2', 'linked': 2, 'url': 'http://127.0.0.1:8000/static/', 'fetched': true, 'code': 404, 'len': 1634, 'decl_mime': 'text/html', 'sniff_mime': 'application/xhtml+xml', 'cset': 'utf-8', 'missing': true, 'csens': true, 'child_cnt': 1, 'issue_cnt': [ 6, 2, 0, 0, 0 ], 'sig': 0x6c6a6dc0 }
+];

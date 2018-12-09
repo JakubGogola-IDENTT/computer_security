@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Date: Sun, 09 Dec 2018 16:48:24 GMT
+Server: WSGIServer/0.2 CPython/3.6.7
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+Content-Length: 528
+Vary: Cookie
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Homepage AwesomeBank  </title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+
+<div class="main">
+<div class="bank-name">
+    AwesomeBank
+</div>
+    
+    
+        <p>Nie jesteś zalogowany!</p>
+        <a href="/accounts/login/">Zaloguj się</a>
+        <a href="/accounts/signup/">Zarejestruj się</a>
+    
+
+</div>
+</body>
+</html>
