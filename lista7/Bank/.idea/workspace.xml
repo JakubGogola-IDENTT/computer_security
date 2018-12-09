@@ -2,53 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4343b483-cc30-447b-a977-99f4603623fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/admin_confirmation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin_sent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sql_injection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista3/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista3/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista3/venv/bin/python" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista3/venv/bin/python" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista3/venv/bin/python3" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista3/venv/bin/python3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista3/venv/bin/python3.7" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista3/venv/bin/python3.7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista3/venv/lib64" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista4/decryptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista4/decryptor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista4/venv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista4/venv/bin/easy_install" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista4/venv/bin/easy_install-3.7" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista4/venv/bin/easy_install-3.7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista4/venv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista4/venv/bin/pip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista4/venv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista4/venv/bin/pip3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista4/venv/bin/pip3.7" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista4/venv/bin/pip3.7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista4/venv/bin/python" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista4/venv/bin/python" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista4/venv/bin/python3" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista4/venv/bin/python3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista4/venv/bin/python3.7" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista4/venv/bin/python3.7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista4/venv/lib64" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista5/dns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista5/dns/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista5/dns/dns.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista5/dns/dns.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista5/gen.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista5/gen.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista5/phishing_website/hacked.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista5/phishing_website/hacked.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista5/phishing_website/phishing_server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista5/phishing_website/server" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista5/phishing_website/server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista6/Bank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista6/Bank/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista6/Bank/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista6/Bank/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista6/Bank/templates/transfers_history.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista6/Bank/templates/transfers_history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lista6/plugin/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../lista6/plugin/plugin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AwesomeBank/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/AwesomeBank/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AwesomeBank/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/AwesomeBank/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bank/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bank/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/transfer_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/transfer_confirm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/transfer_sent.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/transfer_sent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../complete.wl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../extensions-only.wl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../medium.wl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../minimal.wl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../output_dict.wl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../output_dict.wl.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../penetration-tests.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../skipfish_with_security.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AwesomeBank/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1179">
-              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+            <state relative-caret-position="825">
+              <caret line="136" column="48" selection-start-line="136" selection-start-column="48" selection-end-line="136" selection-end-column="48" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -111,10 +66,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/transfer_confirm.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AwesomeBank/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="420">
+              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -134,17 +98,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/admin_confirmation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="315">
+              <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/admin_sent.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="90">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -152,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AwesomeBank/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="90" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
+            <state relative-caret-position="210">
+              <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -161,25 +125,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bank/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-276">
+            <state relative-caret-position="1350">
               <caret line="90" column="28" lean-forward="true" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
               <folding>
                 <element signature="e#305#314#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bank/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
-              <folding>
-                <element signature="e#628#660#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -245,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="106" />
     <option name="y" value="48" />
     <option name="width" value="1232" />
@@ -288,6 +240,24 @@
               <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bank" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
@@ -403,7 +373,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51617000" />
+    <option name="totallyTimeSpent" value="52562000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -628,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/transfer_confirm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="35" lean-forward="true" selection-end-line="34" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/transfer_sending.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -658,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bank/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+        <state relative-caret-position="384">
+          <caret line="28" column="76" lean-forward="true" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
           <folding>
             <element signature="e#628#660#0" expanded="true" />
           </folding>
@@ -680,16 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AwesomeBank/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="90" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/83ef72bd-192f-46cb-9717-c474b0426e4b/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -702,30 +655,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AwesomeBank/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1179">
-          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+        <state relative-caret-position="825">
+          <caret line="136" column="48" selection-start-line="136" selection-start-column="48" selection-end-line="136" selection-end-column="48" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bank/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="90" column="28" lean-forward="true" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
-          <folding>
-            <element signature="e#305#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AwesomeBank/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -737,17 +670,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin_confirmation.html">
+    <entry file="file://$PROJECT_DIR$/templates/admin_sent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="90">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin_sent.html">
+    <entry file="file://$PROJECT_DIR$/templates/admin_confirmation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/transfer_confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwesomeBank/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwesomeBank/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="90" column="28" lean-forward="true" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+          <folding>
+            <element signature="e#305#314#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

