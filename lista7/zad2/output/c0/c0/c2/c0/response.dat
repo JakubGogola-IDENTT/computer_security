@@ -1,0 +1,38 @@
+HTTP/1.1 200 OK
+Date: Sun, 09 Dec 2018 19:49:28 GMT
+Server: WSGIServer/0.2 CPython/3.6.7
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+Vary: Cookie
+Content-Length: 1587
+Set-Cookie: csrftoken=bLaTndz3ODCiGxUg3N2IhnQwAiCZiR1HksBvfgvgXWNDFmV0khjbWOexn6RKe8s5; expires=Sun, 08 Dec 2019 19:49:28 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Zarejestruj się  </title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+
+<div class="main">
+<div class="bank-name">
+    AwesomeBank
+</div>
+    
+    <h2>Zarejestruj się</h2>
+    <form method="post">
+        <input type="hidden" name="csrfmiddlewaretoken" value="mZ6Kj9yIVB95UDzQsSLxzG6VRU6bUUXLvGxmbcuV4UkqTsAAJm20e7uWEIlWQbo9">
+        <ul class="errorlist"><li>A user with that username already exists.</li></ul>
+<p><label for="id_username">Username:</label> <input type="text" name="username" value="Smith" maxlength="150" autofocus required id="id_username"> <span class="helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</span></p>
+<p><label for="id_password1">Password:</label> <input type="password" name="password1" required id="id_password1"> <span class="helptext"><ul><li>Your password can&#39;t be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password can&#39;t be a commonly used password.</li><li>Your password can&#39;t be entirely numeric.</li></ul></span></p>
+<p><label for="id_password2">Password confirmation:</label> <input type="password" name="password2" required id="id_password2"> <span class="helptext">Enter the same password as before, for verification.</span></p>
+        <button type="submit">Zarejestruj się</button>
+    </form>
+
+</div>
+</body>
+</html>

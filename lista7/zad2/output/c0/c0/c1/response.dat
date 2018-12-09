@@ -1,0 +1,36 @@
+HTTP/1.1 200 OK
+Date: Sun, 09 Dec 2018 19:49:37 GMT
+Server: WSGIServer/0.2 CPython/3.6.7
+Content-Type: text/html; charset=utf-8
+Vary: Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Length: 811
+Set-Cookie: csrftoken=bLaTndz3ODCiGxUg3N2IhnQwAiCZiR1HksBvfgvgXWNDFmV0khjbWOexn6RKe8s5; expires=Sun, 08 Dec 2019 19:49:37 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zresetuj hasło  </title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+
+<div class="main">
+<div class="bank-name">
+    AwesomeBank
+</div>
+    
+    <h1>Zresetuj swoje hasło</h1>
+    <p>Podaj swój adres e-mail, a my prześlemy Ci dalsze instrukcje</p>
+    <form method="post">
+        <input type="hidden" name="csrfmiddlewaretoken" value="L7X2qkarrVN1MWP5uE0LO6EzYkIiKgSAUOoEin6EAeYmLLQPL8hetx2AL8X3GxjY">
+        <p><label for="id_email">Email:</label> <input type="email" name="email" maxlength="254" required id="id_email"></p>
+        <input type="submit" value="Wyślij">
+    </form>
+
+</div>
+</body>
+</html>

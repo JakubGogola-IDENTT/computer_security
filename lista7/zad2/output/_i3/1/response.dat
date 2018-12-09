@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Date: Sun, 09 Dec 2018 19:49:18 GMT
+Server: WSGIServer/0.2 CPython/3.6.7
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+Vary: Cookie
+Content-Length: 1495
+Set-Cookie: csrftoken=bLaTndz3ODCiGxUg3N2IhnQwAiCZiR1HksBvfgvgXWNDFmV0khjbWOexn6RKe8s5; expires=Sun, 08 Dec 2019 19:49:18 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Zarejestruj się  </title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+
+<div class="main">
+<div class="bank-name">
+    AwesomeBank
+</div>
+    
+    <h2>Zarejestruj się</h2>
+    <form method="post"

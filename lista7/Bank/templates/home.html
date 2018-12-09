@@ -3,7 +3,7 @@
 q
 {% block main_content %}
     {% if user.is_authenticated %}
-        Dzień dobry {{ user.username }} !
+        Dzień dobry {{ user.username | safe }} !
         <p><a href="{% url 'logout' %}">logout</a> </p>
     {% else %}
         <p>Nie jesteś zalogowany!</p>

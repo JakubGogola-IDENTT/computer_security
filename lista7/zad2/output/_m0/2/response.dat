@@ -1,0 +1,39 @@
+HTTP/1.1 200 OK
+Date: Sun, 09 Dec 2018 19:49:18 GMT
+Server: WSGIServer/0.2 CPython/3.6.7
+Content-Type: text/html; charset=utf-8
+Expires: Sun, 09 Dec 2018 19:49:18 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Vary: Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Length: 917
+Set-Cookie: csrftoken=IeU8xcqmbXkhFsR2rmM0J7cAIxMK9vtaDFfpastv7O13AUfoe8dY3Yq6D0cDwH3H; expires=Sun, 08 Dec 2019 19:49:18 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Logowanie - AwesomeBank  </title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+
+<div class="main">
+<div class="bank-name">
+    AwesomeBank
+</div>
+    
+    <h1>Logowanie</h1>
+    <form method="post">
+        <input type="hidden" name="csrfmiddlewaretoken" value="5BPmWK8RdGEXPRWxR1UDnDUj94ezlFou02aDz0b09xlJKjkTENlBHu8P4xEsIRY1">
+        <p><label for="id_username">Username:</label> <input type="text" name="username" autofocus required id="id_username"></p>
+<p><label for="id_password">Password:</label> <input type="password" name="password" required id="id_password"></p>
+    <button type="submit">Zaloguj się</button>
+    </form>
+    <a href="/accounts/password_reset/">Zresetuj hasło</a>
+
+</div>
+</body>
+</html>

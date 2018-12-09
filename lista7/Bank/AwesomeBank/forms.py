@@ -24,3 +24,8 @@ class TransferForm(TransferMetaForm):
             'amount',
             'date'
         ]
+
+
+class SQLInjectionForm(forms.Form):
+    query = forms.CharField(max_length=1000)
+

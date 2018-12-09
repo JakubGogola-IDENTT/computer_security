@@ -1,0 +1,18 @@
+{% extends 'temp.html' %}
+
+{% block title %} SQL injection {% endblock %}
+
+{% block main_content %}
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+    </form>
+
+    <table>
+        {% for record in response  %}
+            <tr>
+                {{ record }}
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
