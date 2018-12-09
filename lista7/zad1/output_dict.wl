@@ -1,0 +1,15 @@
+w? 1 0 0 .local
+w? 1 0 0 base_user
+w? 1 0 0 generic
+w? 1 0 0 compiler
+w? 1 0 0 handlers
+w? 1 0 0 sqlite3
+w? 1 0 0 contrib
+w? 1 0 0 password_reset
+w? 1 0 0 jakub
+w? 1 0 0 exception
+w? 1 0 0 models
+w? 1 0 0 127
+w? 1 0 0 site-packages
+w? 1 0 0 python3.6
+w? 1 0 0 backends
