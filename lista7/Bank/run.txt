@@ -1,0 +1,6 @@
+python3 manage.py migrate
+python3 manage.py createsuperuser
+python3 manage.py runserver
+python4 manage.py startapp accounts
+mastero.1997@gmail.com
+tajnehaslo123

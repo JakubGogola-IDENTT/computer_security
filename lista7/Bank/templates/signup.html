@@ -1,0 +1,11 @@
+{% extends 'temp.html' %}
+{% block title %} Zarejestruj się {% endblock %}
+
+{% block main_content %}
+    <h2>Zarejestruj się</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Zarejestruj się</button>
+    </form>
+{% endblock %}
