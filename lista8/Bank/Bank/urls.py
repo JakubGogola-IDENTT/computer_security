@@ -15,8 +15,19 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls import url
 from django.views.generic import TemplateView
-from AwesomeBank.views import transfer_sending, transfer_confirmed, transfer_sent, transfers_history
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView, TokenVerifyView
+from rest_framework import routers
+from AwesomeBank.views import transfer_sending, transfer_confirmed, transfer_sent, transfers_history, UserViewSet, \
+    GroupViewSet, TransfersHistoryViewSet
+
+
+router = routers.DefaultRouter()
+router.register(r'users', UserViewSet)
+router.register(r'groups', GroupViewSet)
+router.register(r'api/transfers_history', TransfersHistoryViewSet)
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -26,5 +37,10 @@ urlpatterns = [
     path('transfer_confirm/', transfer_confirmed, name='transfer_confirm'),
     path('transfer_sent/', transfer_sent, name='transfer_sent'),
     path('transfers_history', transfers_history, name='transfers_history'),
-    path('', TemplateView.as_view(template_name='home.html'), name='home')
+    path('', TemplateView.as_view(template_name='home.html'), name='home'),
+    url(r'^', include(router.urls)),
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    url(r'^api/token/$', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    url(r'^api/token/refresh/$', TokenRefreshView.as_view(), name='token_refresh'),
+    url(r'^api/token/verify/$', TokenVerifyView.as_view(), name='token_verify')
 ]

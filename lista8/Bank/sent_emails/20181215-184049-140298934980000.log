@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on localhost:8000
+From: webmaster@localhost
+To: mastero.1997@gmail.com
+Date: Sat, 15 Dec 2018 17:40:49 -0000
+Message-ID: <154489564915.12612.14219776453023753694@jakub-Aspire-V5-573G>
+
+
+You're receiving this email because you requested a password reset for your user account at localhost:8000.
+
+Please go to the following page and choose a new password:
+
+http://localhost:8000/accounts/reset/MQ/525-e0ee1bcab6976cc4b7c5/
+
+Your username, in case you've forgotten: gogolix
+
+Thanks for using our site!
+
+The localhost:8000 team
+
+
+
+-------------------------------------------------------------------------------

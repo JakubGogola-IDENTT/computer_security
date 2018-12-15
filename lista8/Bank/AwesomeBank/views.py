@@ -1,6 +1,9 @@
 from django.shortcuts import render, redirect
+from django.contrib.auth.models import User, Group
+from rest_framework import viewsets
 from AwesomeBank.forms import TransferForm
 from AwesomeBank.models import PreparedTransfer, Transfer
+from AwesomeBank.serializers import UserSerializer, GroupSerializer, TransfersHistorySerializer
 
 
 # Create your views here.
@@ -67,3 +70,21 @@ def transfers_history(request):
         'transfers': transfers
     }
     return render(request, 'transfers_history.html', context)
+
+
+# Views for REST API
+
+
+class UserViewSet(viewsets.ModelViewSet):
+    queryset = User.objects.all().order_by('-date_joined')
+    serializer_class = UserSerializer
+
+
+class GroupViewSet(viewsets.ModelViewSet):
+    queryset = Group.objects.all()
+    serializer_class = GroupSerializer
+
+
+class TransfersHistoryViewSet(viewsets.ModelViewSet):
+    queryset = Transfer.objects.all()
+    serializer_class = TransfersHistorySerializer
