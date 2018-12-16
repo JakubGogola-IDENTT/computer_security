@@ -36,7 +36,7 @@ class TransferSendingSerializer(serializers.HyperlinkedModelSerializer):
     def _user(self, obj):
         request = getattr(self.context, 'request', None)
         if request:
-            return request.user.username
+            return request.user.id
 
     class Meta:
         model = PreparedTransfer
@@ -49,7 +49,7 @@ class TransferConfirmedSerializer(serializers.HyperlinkedModelSerializer):
     def _user(self, obj):
         request = getattr(self.context, 'request', None)
         if request:
-            return request.user.username
+            return request.user.id
 
     class Meta:
         model = Transfer

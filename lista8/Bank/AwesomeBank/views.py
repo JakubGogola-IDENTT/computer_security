@@ -87,7 +87,11 @@ def transfers_history(request):
 @permission_classes((IsAuthenticated,))
 def transfers_history_api(request):
     if request.method == 'GET':
-        transfers = Transfer.objects.all()
+        transfers = []
+        for item in Transfer.objects.all():
+            if item.sender_id == request.user.id:
+                transfers.append(item)
+                
         serializer = TransfersHistorySerializer(transfers, many=True)
         return JsonResponse(serializer.data, safe=False)
 
@@ -109,13 +113,26 @@ def transfer_sending_api(request):
 @authentication_classes((JWTAuthentication,))
 @permission_classes((IsAuthenticated,))
 def transfer_confirmed_api(request):
+    prepared_transfers = []
+
+    for item in PreparedTransfer.objects.all():
+        if item.sender_id == request.user.id:
+            prepared_transfers.append(item)
+
     if request.method == 'POST':
-        data = JSONParser().parse(request)
-        serializer = TransferConfirmedSerializer(data=data)
-        if serializer.is_valid():
-            serializer.save(sender=request.user)
-            return JsonResponse(serializer.data, status=201)
-        return JsonResponse(serializer.errors, status=400)
+        for t in prepared_transfers:
+            Transfer.objects.create(recipient_name=t.recipient_name, recipient_account=t.recipient_account,
+                                    title=t.title, amount=t.amount, sender=t.sender)
+            t.delete()
+
+        transfers = []
+
+        for item in Transfer.objects.all():
+            if item.sender_id == request.user.id:
+                transfers.append(item)
+
+        serializer = TransfersHistorySerializer(transfers, many=True)
+        return JsonResponse(serializer.data, safe=False)
 
 
 @api_view(['POST'])
