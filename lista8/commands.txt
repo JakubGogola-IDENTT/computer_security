@@ -1,0 +1,9 @@
+#Logowanie: http://localhost:8000/api/token/
+#Rejestracja: http://localhost:8000/api/user_registration/
+{
+	"username": "random-user",
+	"first_name": "Random",
+	"last_name": "User",
+	"email": "random.user@mail.com",
+	"password": "randompassword123"
+}
