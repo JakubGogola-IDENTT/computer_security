@@ -1,14 +1,21 @@
 from django.contrib.auth.models import User, Group
-from django.core.validators import RegexValidator
-from django.utils import timezone
 from rest_framework import serializers
+
 from AwesomeBank.models import Transfer, PreparedTransfer
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
+    password = serializers.CharField(write_only=True)
+
     class Meta:
         model = User
-        fields = ('url', 'username', 'email', 'groups')
+        fields = ('username', 'first_name', 'last_name', 'email', 'password')
+
+    def create(self, validated_data):
+        user = super(UserSerializer, self).create(validated_data)
+        user.set_password(validated_data['password'])
+        user.save()
+        return user
 
 
 class GroupSerializer(serializers.HyperlinkedModelSerializer):

@@ -4,12 +4,13 @@ from rest_framework import mixins
 from rest_framework import viewsets
 from rest_framework.decorators import api_view, authentication_classes, permission_classes
 from rest_framework.parsers import JSONParser
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework_simplejwt.authentication import JWTAuthentication
 
 from AwesomeBank.forms import TransferForm
 from AwesomeBank.models import PreparedTransfer, Transfer
-from AwesomeBank.serializers import TransfersHistorySerializer, TransferSendingSerializer, TransferConfirmedSerializer
+from AwesomeBank.serializers import TransfersHistorySerializer, TransferSendingSerializer, TransferConfirmedSerializer, \
+    UserSerializer
 
 
 # Create your views here.
@@ -81,15 +82,14 @@ def transfers_history(request):
 
 # Views for REST API
 
-class TransfersHistoryViewSet(viewsets.ModelViewSet, mixins.ListModelMixin):
-    authentication_classes = (JWTAuthentication,)
-    permission_classes = (IsAuthenticated,)
-
-    queryset = Transfer.objects.all()
-    serializer_class = TransfersHistorySerializer
-
-    def get(self, request, *args, **kwargs):
-        return self.list(request, *args, *kwargs)
+@api_view(['GET'])
+@authentication_classes((JWTAuthentication,))
+@permission_classes((IsAuthenticated,))
+def transfers_history_api(request):
+    if request.method == 'GET':
+        transfers = Transfer.objects.all()
+        serializer = TransfersHistorySerializer(transfers, many=True)
+        return JsonResponse(serializer.data, safe=False)
 
 
 @api_view(['POST'])
@@ -114,5 +114,17 @@ def transfer_confirmed_api(request):
         serializer = TransferConfirmedSerializer(data=data)
         if serializer.is_valid():
             serializer.save(sender=request.user)
+            return JsonResponse(serializer.data, status=201)
+        return JsonResponse(serializer.errors, status=400)
+
+
+@api_view(['POST'])
+@permission_classes((AllowAny, ))
+def user_registration_api(request):
+    if request.method == 'POST':
+        data = JSONParser().parse(request)
+        serializer = UserSerializer(data=data)
+        if serializer.is_valid():
+            serializer.save()
             return JsonResponse(serializer.data, status=201)
         return JsonResponse(serializer.errors, status=400)

@@ -20,11 +20,9 @@ from django.views.generic import TemplateView
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView, TokenVerifyView
 from rest_framework import routers
 from AwesomeBank.views import transfer_sending, transfer_confirmed, transfer_sent, transfers_history, \
-    TransfersHistoryViewSet, transfer_sending_api, transfer_confirmed_api
+    transfers_history_api, transfer_sending_api, transfer_confirmed_api, user_registration_api
 
 router = routers.DefaultRouter()
-router.register('api/transfers_history', TransfersHistoryViewSet)
-# router.register('api/transfer_sending', transfer_sending_api)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -36,6 +34,8 @@ urlpatterns = [
     path('transfers_history', transfers_history, name='transfers_history'),
     path('api/transfer_sending/', transfer_sending_api, name='api_transfer_sending'),
     path('api/transfer_confirmed/', transfer_confirmed_api, name='api_transfer_confirmed'),
+    path('api/user_registration/', user_registration_api, name='api_user_registration'),
+    path('api/transfers_history/', transfers_history_api, name='api_transfers_history'),
     path('', TemplateView.as_view(template_name='home.html'), name='home'),
     url(r'^', include(router.urls)),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
