@@ -1,7 +1,5 @@
 from django.http import JsonResponse
 from django.shortcuts import render, redirect
-from rest_framework import mixins
-from rest_framework import viewsets
 from rest_framework.decorators import api_view, authentication_classes, permission_classes
 from rest_framework.parsers import JSONParser
 from rest_framework.permissions import IsAuthenticated, AllowAny
@@ -9,8 +7,7 @@ from rest_framework_simplejwt.authentication import JWTAuthentication
 
 from AwesomeBank.forms import TransferForm
 from AwesomeBank.models import PreparedTransfer, Transfer
-from AwesomeBank.serializers import TransfersHistorySerializer, TransferSendingSerializer, TransferConfirmedSerializer, \
-    UserSerializer
+from AwesomeBank.serializers import TransfersHistorySerializer, TransferSendingSerializer, UserSerializer
 
 
 # Create your views here.
@@ -91,7 +88,7 @@ def transfers_history_api(request):
         for item in Transfer.objects.all():
             if item.sender_id == request.user.id:
                 transfers.append(item)
-                
+
         serializer = TransfersHistorySerializer(transfers, many=True)
         return JsonResponse(serializer.data, safe=False)
 
