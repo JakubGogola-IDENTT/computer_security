@@ -7,3 +7,19 @@
 	"email": "random.user@mail.com",
 	"password": "randompassword123"
 }
+
+#Przelew: http://localhost:8000/api/transfer_sending/
+{
+	"recipient_name": "Another User",
+	"recipient_account": "12345678901234567890123456",
+	"title": "Shopping",
+	"amount": 500
+}
+
+#Powtierdzenie przelewu: http://localhost:8000/api/transfer_confirmed/
+{
+	"recipient_name": "Another User",
+	"recipient_account": "12345678901234567890123456",
+	"title": "Shopping",
+	"amount": 500
+}
