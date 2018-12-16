@@ -1,12 +1,19 @@
+from django.http import JsonResponse
 from django.shortcuts import render, redirect
-from django.contrib.auth.models import User, Group
+from rest_framework import mixins
 from rest_framework import viewsets
+from rest_framework.decorators import api_view, authentication_classes, permission_classes
+from rest_framework.parsers import JSONParser
+from rest_framework.permissions import IsAuthenticated
+from rest_framework_simplejwt.authentication import JWTAuthentication
+
 from AwesomeBank.forms import TransferForm
 from AwesomeBank.models import PreparedTransfer, Transfer
-from AwesomeBank.serializers import UserSerializer, GroupSerializer, TransfersHistorySerializer
+from AwesomeBank.serializers import TransfersHistorySerializer, TransferSendingSerializer, TransferConfirmedSerializer
 
 
 # Create your views here.
+
 
 def transfer_sending(request):
     if request.method == 'POST':
@@ -74,17 +81,38 @@ def transfers_history(request):
 
 # Views for REST API
 
+class TransfersHistoryViewSet(viewsets.ModelViewSet, mixins.ListModelMixin):
+    authentication_classes = (JWTAuthentication,)
+    permission_classes = (IsAuthenticated,)
 
-class UserViewSet(viewsets.ModelViewSet):
-    queryset = User.objects.all().order_by('-date_joined')
-    serializer_class = UserSerializer
-
-
-class GroupViewSet(viewsets.ModelViewSet):
-    queryset = Group.objects.all()
-    serializer_class = GroupSerializer
-
-
-class TransfersHistoryViewSet(viewsets.ModelViewSet):
     queryset = Transfer.objects.all()
     serializer_class = TransfersHistorySerializer
+
+    def get(self, request, *args, **kwargs):
+        return self.list(request, *args, *kwargs)
+
+
+@api_view(['POST'])
+@authentication_classes((JWTAuthentication, ))
+@permission_classes((IsAuthenticated, ))
+def transfer_sending_api(request):
+    if request.method == 'POST':
+        data = JSONParser().parse(request)
+        serializer = TransferSendingSerializer(data=data)
+        if serializer.is_valid():
+            serializer.save(sender=request.user)
+            return JsonResponse(serializer.data, status=201)
+        return JsonResponse(serializer.errors, status=400)
+
+
+@api_view(['POST'])
+@authentication_classes((JWTAuthentication,))
+@permission_classes((IsAuthenticated,))
+def transfer_confirmed_api(request):
+    if request.method == 'POST':
+        data = JSONParser().parse(request)
+        serializer = TransferConfirmedSerializer(data=data)
+        if serializer.is_valid():
+            serializer.save(sender=request.user)
+            return JsonResponse(serializer.data, status=201)
+        return JsonResponse(serializer.errors, status=400)
